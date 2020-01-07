@@ -9,7 +9,7 @@ namespace Dejtingsida.Models
         public class Inlägg
         {
             [Key]
-            public int Post_Id { get; set; }
+            public int InläggID { get; set; }
             public string Avsändare { get; set; }
             public string Mottagare { get; set; }
 
